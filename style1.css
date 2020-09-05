@@ -1,0 +1,204 @@
+body{
+}
+.aa 
+{
+width:100%;
+height:80px;
+}
+#ab{
+	    margin-left: 0px;
+    padding: 15px;
+    margin-top: 87px;
+}
+.new{
+	width:100%;
+	background-image:url("logoback.jpg");
+	background-repeat:repeat-y;
+	height: 129px;
+}
+.new img
+{
+	width:100%;
+	
+}
+.new1{
+	width:25%;	
+	float:left;
+	height: 120px;
+	clear:both;
+}
+#logline
+{
+	padding-left: 92px;
+    font-size: 14px;
+}
+.aa
+{
+	width:73%;	
+	float:left;
+	
+}
+.new1 img 
+{
+	width: 130px;
+    height: 89px;
+}
+#ab li
+{
+	display:inline;
+	    margin-right: 73px;
+		font-size: 18px;
+    padding: 6px;
+		border: 1px solid black;
+    border-bottom: none;
+    border-radius: 6px;
+
+}
+.bb
+{
+	clear:both;
+	float:both;
+}
+.bc
+{
+	float:left;
+	clear:both;
+	width:48%;
+	height:100px;
+	border :1px solid black;
+}
+
+.bd
+{
+	float:left;
+	
+	width:48%;
+	height:100px;
+	
+}
+.image1 img
+{
+	width:100%;
+	height:500px;
+}
+.who
+{
+	width:100%;
+	background-color: #e417ae33;
+	height: 330px;
+}
+.whoimg
+{
+	width:34%;
+	height:290px;
+	float:left;
+	clear:both;
+	
+}
+.whodata
+{
+	width:65%;
+	height:290px;
+	float:left;
+}
+.whodata p 
+{
+	font-family: cursive;
+	    font-size: 18px;
+}
+#wh
+{
+	font-weight:bold;
+	font-size:44;
+	    margin-left: 308px;
+		    font-family: monospace;
+}
+.where{
+	height:490px;
+	background-color: #9e95e48c;
+	width:100%;
+}
+.where1
+{
+	width:48%;
+	float:left;
+}
+.where2
+{
+	width:48%;
+	float:left;
+}
+.prd{
+	width:100%;
+	    clear: both;
+    height: 278px;
+}
+.prd1
+{
+	width:33%;
+	float:left;
+	height:200px;
+	clear:both;
+	
+}
+.prd2
+{
+	width:33%;
+	float:left;
+	
+	height:200px;
+	
+}
+.prd3
+{
+	width:33%;
+	float:left;
+	height:200px;
+	
+	
+}
+.dd
+{
+	margin-top:50px;
+	font-size:28;
+	margin-left:30px;
+}
+.enq
+{
+	width:100%;
+	height:215px;
+}
+.ord
+{
+	width:100%;
+	height:380px;
+}
+.form
+{
+	width:100%;
+	line-height:1;
+}
+
+.labl
+{
+	float:left;
+	width:40%;
+	margin-left:100px;
+	padding-left: 421px;
+}
+
+.ip
+{
+	float:left;
+	margin-bottom: 7px;
+	width:40%;
+	margin-left: 29px;
+}
+.but
+{
+	float:left;
+	clear:both;
+	margin-left:500px;
+}
+
+
