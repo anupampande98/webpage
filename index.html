@@ -3,11 +3,20 @@
 
 <link rel="stylesheet" href="style1.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="myScript.js"></script>
 </head>
 <body>
-
+<script>
+function ap()
+{
+var a=document.getElementById("tb1").value;
+var b=document.getElementById("tb2").value;
+var c=document.getElementById("tb3").value;
+var d=document.getElementById("tb4").value;
+//var e=document.getElementById("tb5").value;
+document.getElementById("op").innerHTML = a + b + c + d;
+}
+</script>
 
 <div class="new">
 <div class="new1">
@@ -124,26 +133,29 @@
 </div>
 
 <div class="enq">
+<form action="https://formspree.io/mgengnyl"   method="POST">
+
 <h2 id="wh">Enquiry Form</h2>
 <div class="form">
 <div class="labl"><label>Name</label></div>
-<div class="ip"><input type="text"></div>
+<div class="ip"><input id="tb1" name="message" type="text"></div>
 </div>
 <div class="form">
 <div class="labl"><label>Mobile number</label></div>
-<div class="ip"><input type="text"></div>
+<div class="ip"><input id="tb2" name="message" type="text"></div>
 </div>
 
 <div class="form">
 <div class="labl"><label>City</label></div>
-<div class="ip"><input type="text"></div>
+<div class="ip"><input id="tb3" name="message" type="text"></div>
 </div>
 
 <div class="form">
 <div class="labl"><label>description </label></div>
-<div class="ip"><input type="text" id="wide"></div>
+<div class="ip"><input id="tb4" name="message" type="text" id="wide"></div>
 </div>
-<button class="but" type="Submit">Submit</Button>
+<button class="but" onclick="ap()" type="Submit">Submit</Button>
+</form>
 </div>
 
 
